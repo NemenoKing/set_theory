@@ -1,0 +1,7 @@
+%matplotlib inline
+import matplotlib_venn as vplt
+from matplotlib import pyplot as plt
+v = vplt.venn3
+plt.title('Favorite Weather')
+plt.show
+v = venn3(subsets=(5, 3, 2, 3, 5, 6, 2), set_labels = ('Hot', 'Rainy', 'Sunny'))
